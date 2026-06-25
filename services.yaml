@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        public: false
+
+    O3Shop\ReCaptcha\Verifier\CaptchaVerifierInterface:
+        class: O3Shop\ReCaptcha\Verifier\GoogleReCaptchaVerifier
+
+    O3Shop\ReCaptcha\Provider\GoogleReCaptchaV2Provider:
+        tags: ['oxid.captcha.provider']
+
+    O3Shop\ReCaptcha\Provider\GoogleReCaptchaV3Provider:
+        tags: ['oxid.captcha.provider']

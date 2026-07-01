@@ -22,7 +22,7 @@ declare(strict_types=1);
 
 $sMetadataVersion = '2.1';
 $aModule = [
-    'id'          => 'o3recaptcha',
+    'id'          => 'google-recaptcha',
     'title'       => 'Google reCAPTCHA',
     'description' => 'Google reCAPTCHA v2/v3 provider for the O3-Shop core CAPTCHA layer',
     'version'     => '1.0.0',

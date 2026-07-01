@@ -1,5 +1,5 @@
 {
-  "name": "o3-shop/recaptcha-module",
+  "name": "o3-shop/googlerecaptcha-module",
   "description": "Google reCAPTCHA v2/v3 provider for the O3-Shop core CAPTCHA layer",
   "type": "oxideshop-module",
   "homepage": "https://www.o3-shop.com/",

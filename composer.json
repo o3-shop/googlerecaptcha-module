@@ -29,7 +29,7 @@
   },
   "extra": {
     "oxideshop": {
-      "target-directory": "o3-shop/recaptcha"
+      "target-directory": "o3-shop/google-recaptcha"
     }
   }
 }

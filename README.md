@@ -17,7 +17,7 @@ Google providers appear in **Admin → CAPTCHA** and can be configured there.
 ## Install
 
 ```bash
-composer require o3-shop/recaptcha-module
+composer require o3-shop/google-recaptcha-module
 ```
 
 This pulls in `google/recaptcha` and copies the module into

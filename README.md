@@ -26,7 +26,7 @@ This pulls in `google/recaptcha` and copies the module into
 ## Activate
 
 ```bash
-./vendor/bin/oe-console oe:module:activate o3recaptcha
+./vendor/bin/oe-console oe:module:activate google-recaptcha
 ```
 
 (or activate it from the admin module list).

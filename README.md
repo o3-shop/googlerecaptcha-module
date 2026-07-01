@@ -21,7 +21,7 @@ composer require o3-shop/recaptcha-module
 ```
 
 This pulls in `google/recaptcha` and copies the module into
-`source/modules/o3-shop/recaptcha`.
+`source/modules/o3-shop/google-recaptcha`.
 
 ## Activate
 

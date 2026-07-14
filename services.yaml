@@ -9,5 +9,8 @@ services:
     O3Shop\ReCaptcha\Provider\GoogleReCaptchaV2Provider:
         tags: ['oxid.captcha.provider']
 
+    O3Shop\ReCaptcha\Provider\GoogleReCaptchaV2InvisibleProvider:
+        tags: ['oxid.captcha.provider']
+
     O3Shop\ReCaptcha\Provider\GoogleReCaptchaV3Provider:
         tags: ['oxid.captcha.provider']

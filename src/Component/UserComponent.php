@@ -4,11 +4,10 @@ declare(strict_types=1);
 
 namespace O3Shop\ReCaptcha\Component;
 
-use OxidEsales\Eshop\Application\Component\UserComponent as ParentUserComponent;
 use OxidEsales\EshopCommunity\Internal\Domain\Captcha\CaptchaServiceInterface;
 use OxidEsales\Eshop\Core\Registry;
 
-class UserComponent extends ParentUserComponent
+class UserComponent extends UserComponent_parent
 {
     public function createUser()
     {

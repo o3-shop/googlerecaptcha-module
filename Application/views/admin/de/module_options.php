@@ -21,10 +21,11 @@
 $sLangName = 'Deutsch';
 
 $aLang = [
-    'charset'                          => 'UTF-8',
-    'O3_CAPTCHA_PROVIDER_GOOGLE_V2'    => 'Google reCAPTCHA v2 (Checkbox)',
-    'O3_CAPTCHA_PROVIDER_GOOGLE_V3'    => 'Google reCAPTCHA v3 (unsichtbar/Score)',
-    'O3_CAPTCHA_SITE_KEY'              => 'Site Key',
-    'O3_CAPTCHA_SECRET_KEY'            => 'Secret Key',
-    'O3_CAPTCHA_SCORE_THRESHOLD'       => 'Mindest-Score (0.0–1.0)',
+    'charset'                                 => 'UTF-8',
+    'O3_CAPTCHA_PROVIDER_GOOGLE_V2'           => 'Google reCAPTCHA v2 (Checkbox)',
+    'O3_CAPTCHA_PROVIDER_GOOGLE_V2_INVISIBLE' => 'Google reCAPTCHA v2 Invisible (unsichtbar / Herausforderung bei Bedarf)',
+    'O3_CAPTCHA_PROVIDER_GOOGLE_V3'           => 'Google reCAPTCHA v3 (unsichtbar/Score)',
+    'O3_CAPTCHA_SITE_KEY'                     => 'Site Key',
+    'O3_CAPTCHA_SECRET_KEY'                   => 'Secret Key',
+    'O3_CAPTCHA_SCORE_THRESHOLD'              => 'Mindest-Score (0.0–1.0)',
 ];

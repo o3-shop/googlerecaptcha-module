@@ -24,9 +24,21 @@ $sMetadataVersion = '2.1';
 $aModule = [
     'id'          => 'google-recaptcha',
     'title'       => 'Google reCAPTCHA',
-    'description' => 'Google reCAPTCHA v2/v3 provider for the O3-Shop core CAPTCHA layer',
-    'version'     => '1.0.0',
+    'description' => 'Google reCAPTCHA v2/v2 Invisible/v3 provider for the O3-Shop core CAPTCHA layer',
+    'version'     => '1.1.0',
     'author'      => 'O3-Shop',
     'url'         => 'https://www.o3-shop.com/',
     'email'       => 'info@o3-shop.com',
+    'extend'      => [
+        \OxidEsales\Eshop\Application\Component\UserComponent::class =>
+            \O3Shop\ReCaptcha\Component\UserComponent::class,
+        \OxidEsales\Eshop\Application\Controller\NewsletterController::class =>
+            \O3Shop\ReCaptcha\Controller\NewsletterController::class,
+    ],
+    'blocks'      => [
+        ['template' => 'form/contact.tpl',               'block' => 'captcha_form', 'file' => 'views/blocks/captcha_form_contact.tpl'],
+        ['template' => 'form/forgotpwd_email.tpl',       'block' => 'captcha_form', 'file' => 'views/blocks/captcha_form_forgotpwd.tpl'],
+        ['template' => 'form/fieldset/user_billing.tpl', 'block' => 'captcha_form', 'file' => 'views/blocks/captcha_form_register.tpl'],
+        ['template' => 'form/newsletter.tpl',            'block' => 'captcha_form', 'file' => 'views/blocks/captcha_form_newsletter.tpl'],
+    ],
 ];
